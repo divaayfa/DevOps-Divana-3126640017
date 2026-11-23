@@ -33,6 +33,7 @@ docker version
 docker compose version
 ```
 
+
 Untuk memastikan Docker dapat menjalankan container, dilakukan pengujian menggunakan:
 
 ```bash
@@ -179,14 +180,6 @@ Container berhasil berjalan.
 ```
 
 Hal tersebut membuktikan bahwa custom image berhasil dibangun dan dijalankan sebagai container.
-
-**Gambar 5. Proses Build Custom Image**
-
-![Build custom image](assets/Prak2.5.png)
-
-**Gambar 6. Hasil Pengujian Custom Image**
-
-![Hasil custom image](assets/Prak2.6.png)
 
 ## 6. Analisis Hasil Praktikum
 
