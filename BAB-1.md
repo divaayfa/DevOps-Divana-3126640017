@@ -137,6 +137,8 @@ pwd
 
 Hasil yang diperoleh:
 
+![Hasil Praktikum](./Prak1.1.png)
+
 ```text
 /home/divanasyifa/devsecops-lab
 ```
@@ -165,6 +167,7 @@ Docker merupakan salah satu komponen utama dalam praktikum karena digunakan untu
 ```bash
 docker version
 ```
+![Hasil Praktikum](./Prak1.2.png)
 
 Perintah tersebut digunakan untuk menampilkan informasi versi Docker Client dan Docker Server.
 
@@ -181,6 +184,7 @@ Docker Compose digunakan untuk mengatur dan menjalankan beberapa container melal
 ```bash
 docker compose version
 ```
+![Hasil Praktikum](./Prak1.3.png)
 
 Hasil pemeriksaan menunjukkan bahwa Docker Compose V2 tersedia pada lingkungan praktikum.
 
@@ -199,6 +203,7 @@ Git digunakan untuk mengelola source code dan mencatat perubahan pada file proye
 ```bash
 git --version
 ```
+![Hasil Praktikum](./Prak1.4.png)
 
 Perintah tersebut digunakan untuk memastikan bahwa Git telah terpasang dan dapat dijalankan.
 
@@ -239,6 +244,8 @@ Perintah yang digunakan adalah:
 ```bash
 docker info --format '{{json .SecurityOptions}}'
 ```
+
+![Hasil Praktikum](./Prak1.5.png)
 
 Perintah tersebut menggunakan `docker info` untuk mengambil informasi konfigurasi Docker. Bagian `--format` digunakan untuk menampilkan informasi SecurityOptions dalam format JSON.
 
